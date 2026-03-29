@@ -1,11 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+    <header>
+        <p class="a">quiz 2</p>
+        <h1>Small html + css</h1>
+        <p>Demo with strong typoghraphy, color, and component stylin</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>head styles</h2>
+            <p>This paragraph shows the base body type. Here is an
+                <a href="#">inline link example</a>
+                and a little
+                <mark>highlight</mark>
+                .
+            </p>
+            <blockquote>Good visual hierarchy can make simple HTML feel intentional.</blockquote>
+        </section>
+
+        <section>
+            <h2>Lists + Badges</h2>
+            <ul>
+                <li>Readable spacing and line height</li>
+                <li>Clear color contrast</li>
+                <li>Labels like
+                    <span class="b">new</span>
+                    <span class="b">simple</span>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>button</h2>
+            <p>
+                <button type="button">primary</button>
+                <button type="button" class="c">secondary</button>
+            </p>
+        </section>
+
+        <section>
+            <h2>Form Sample</h2>
+            <form>
+                <label for="n">Name</label>
+                <input id="n" name="n" type="text" placeholder="Jane Doe">
+                <label for="t">Favorite Topic</label>
+                <select id="t" name="t">
+                    <option>HTML</option>
+                    <option>CSS</option>
+                    <option>Accessibility</option>
+                </select>
+                <label for="o">Note</label>
+                <textarea id="o" name="o" rows="4" placeholder="Write something..."></textarea>
+            </form>
+        </section>
+
+        <section>
+            <h2>Table</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Status</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Typography</td>
+                        <td>Done</td>
+                        <td>Base</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>Done</td>
+                        <td>Base</td>
+                    </tr>
+                    <tr>
+                        <td>Components</td>
+                        <td>In Progress</td>
+                        <td>Light</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>Details</h2>
+            <details open="">
+                <summary>Why this works without layout tools</summary>
+                <p>Normal document flow can still look polished when spacing, borders, font scale, and color are treated consistently.</p>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built for class quiz practice.</p>
+    </footer>
+
 </body>
 </html>
